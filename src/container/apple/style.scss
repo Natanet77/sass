@@ -189,16 +189,27 @@ $productImage: (
     flex-direction: row;
     
     background-color: s.color('background');
-    justify-content: space-between;
+       gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+    align-items: flex-start;
     
 }
 
 .footer__content {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column; 
+    justify-content: center;   
+    gap: 12px;
 }
 
 // .footer--title {
 //     font-size: 12px;
 //     color: #1d1d1f;
 // }
+
+.links {
+    font-size: 12px;
+    color: #424245;
+}

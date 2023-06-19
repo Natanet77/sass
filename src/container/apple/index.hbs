@@ -196,13 +196,13 @@
 
     {{#each footer}}
     <div class="footer__content">
-      <div class="footer--title">{{title}}</div>
+      <div>{{title}}</div>
 
-      <div class="links">
-        {{#each links}}
-        <a href="{{url}}">{{text}}</a>
-        {{/each}}
-      </div>
+
+      {{#each links}}
+      <a class="links" href="{{url}}">{{text}}</a>
+      {{/each}}
+
     </div>
     {{/each}}
 
